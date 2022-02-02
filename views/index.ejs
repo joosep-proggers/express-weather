@@ -7,13 +7,13 @@
 </head>
 <body>
 	<div id="weather">
-		<div id="description"></div>
-		<h1 id="temp"></h1>
-		<div id="feels-like"></div>
-		<h3 id="temp-min"></h3>
-		<h3 id="temp-max"></h3>
-		<div id="wind"></div>
-		<h1 id="location"></h1>
+		<div id="description"><%= description %></div>
+		<h1 id="temp"><%= temp %></h1>
+		<div id="feels-like"><%= feelsLike %></div>
+		<h3 id="temp-min"><%= tempMin %></h3>
+		<h3 id="temp-max"><%= tempMax %></h3>
+		<div id="wind"><%= wind %></div>
+		<h1 id="location"><%= city %></h1>
 	</div>
 	<br>
 	<br>
@@ -21,9 +21,5 @@
     	<input id="change-city" type="text">
         <input type="submit" value="Muuda linna" Class="btn">
      </form>
-    <script src="classes/ls.js"></script>
-	<script src="classes/weather.js"></script>
-	<script src="classes/ui.js"></script>
-	<script src="app.js"></script>
 </body>
 </html>

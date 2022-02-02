@@ -1,12 +1,13 @@
 <%- include('header'); %>	
 	<div id="weather">
-		<div id="description"></div>
-		<h1 id="temp"></h1>
-		<div id="feels-like"></div>
-		<h3 id="temp-min"></h3>
-		<h3 id="temp-max"></h3>
-		<div id="wind"></div>
-		<h1 id="location"></h1>
+		<div id="weather">
+		<div id="description"><%= description %></div>
+		<h1 id="temp">Temperatuur praegu: <%= temp %></h1>
+		<div id="feels-like">Feels like: <%= feelsLike %></div>
+		<h3 id="temp-min">Päeva madalaim: <%= tempMin %></h3>
+		<h3 id="temp-max">Päeva kõrgeim: <%= tempMax %></h3>
+		<div id="wind">Tuule kiirus:<%= wind %></div>
+		<h1 id="location"><%= city %></h1>
 	</div>
 	<br>
 	<br>
