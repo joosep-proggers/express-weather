@@ -1,11 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="style.css">
-	<title>Current Weather - OOP</title>
-</head>
-<body>
+<%- include('header'); %>	
 	<div id="weather">
 		<div id="description"></div>
 		<h1 id="temp"></h1>
@@ -21,9 +14,4 @@
     	<input id="change-city" type="text">
         <input type="submit" value="Muuda linna" Class="btn">
      </form>
-    <script src="classes/ls.js"></script>
-	<script src="classes/weather.js"></script>
-	<script src="classes/ui.js"></script>
-	<script src="app.js"></script>
-</body>
-</html>
+<%- include('footer'); %>
